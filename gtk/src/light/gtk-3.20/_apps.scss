@@ -613,3 +613,12 @@ normal-button {
    // so we're pushing it to the right to have the focus ring be displayed properly
    margin-left: 1px
 }
+
+
+/**********
+ * Evince *
+ **********/
+/* issue:1133 Avoid white text on white entry in editable cell */
+evview.content-view entry {
+    color: black;
+}
